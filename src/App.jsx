@@ -23,6 +23,9 @@ function App() {
                 <Features />
                 <Newsletter />
                 <Footer />
+                <p className="text-[8px] text-gray-300 text-center">
+                    &copy; Henri Bresteau
+                </p>
             </div>
         </div>
     );
