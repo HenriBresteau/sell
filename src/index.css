@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Dela";
+    src: local("Dela"),
+        url("./fonts/DelaGothicOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DMSans Bold";
+    src: local("DMSans Bold"), url("./fonts/DMSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DMSans Medium";
+    src: local("DMSans Medium"),
+        url("./fonts/DMSans-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Inter Medium";
+    src: local("Inter Medium"),
+        url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Inter Semi Bold";
+    src: local("Inter Semi Bold"),
+        url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Inter Bold";
+    src: local("Inter Bold"), url("./fonts/Inter-Bold.ttf") format("truetype");
+}

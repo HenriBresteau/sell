@@ -1,0 +1,32 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.twitter:hover {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(29%) saturate(6443%)
+        hue-rotate(179deg) brightness(100%) contrast(89%);
+}
+
+.scroll {
+    overflow-x: auto;
+}
+
+.scroll:active::-webkit-scrollbar-thumb,
+.scroll:focus::-webkit-scrollbar-thumb,
+.scroll:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 16px;
+    visibility: hidden;
+    height: 4px;
+    width: 4px;
+}
+
+.scroll::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    background-color: transparent;
+}
