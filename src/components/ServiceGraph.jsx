@@ -3,7 +3,7 @@ import graph from "../assets/graph.svg";
 
 const ServiceGraph = () => {
     return (
-        <div className="flex-none max-w-[302px] bg-white px-[21px] pt-[16px] pb-[19px] rounded-[10px] flex flex-col gap-[30px] relative">
+        <div className="flex-none max-w-[302px] bg-white px-5 py-4 rounded-lg flex flex-col gap-[30px] relative">
             <div className="flex gap-[26px] ">
                 <div className="flex gap-1 items-center">
                     <div className="font-Inter700 text-[28px] text-[#0A071B]">

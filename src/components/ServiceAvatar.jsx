@@ -7,7 +7,7 @@ import user4 from "../assets/user4.png";
 
 const ServiceAvatar = () => {
     return (
-        <div className="flex-none max-w-[302px] bg-white px-[21px] pt-[16px] pb-[19px] rounded-[10px] flex flex-col gap-[60px]">
+        <div className="flex-none max-w-[302px] bg-white px-5 py-4 rounded-lg flex flex-col gap-[60px] transition-colors hover:bg-zinc-100 ">
             <div className="flex gap-[26px] ">
                 <div className="flex gap-[10px] items-center ">
                     <div className="w-[50px] h-[50px] bg-[#ec9c4017] rounded-full flex items-center justify-center flex-col ">
@@ -22,7 +22,7 @@ const ServiceAvatar = () => {
                     <div className="font-Inter700 text-2xl text-[#0A071B]">
                         27k
                     </div>
-                    <img src={arrow} />
+                    <img src={arrow} className="rotate-180" />
                 </div>
             </div>
             <div className="flex gap-[14px]">

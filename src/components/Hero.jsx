@@ -6,7 +6,10 @@ import user4 from "../assets/user4.png";
 const Hero = () => {
     return (
         <div className="mt-10 flex flex-col items-center text-center relative">
-            <div className="rounded-full px-2 md:px-4 py-2 font-DM700  text-xs text-white bg-gradient-to-r from-[#E693A5] to-[#3951E5] w-fit ">
+            <div
+                className="rounded-full px-2 md:px-4 py-2 font-DM700  text-xs text-white bg-gradient-to-r from-[#E693A5] to-[#3951E5] w-fit 
+            hover:drop-shadow-[0_0_20px_rgba(57,80,229,0.25)] transition-all"
+            >
                 Introducing a new online selling platform 🎉
             </div>
             <h1 className="max-w-[633px] mt-11 font-Dela text-3xl md:text-5xl leading-12 ">

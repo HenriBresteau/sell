@@ -5,7 +5,7 @@ import quizepercent from "../assets/15percent.svg";
 
 const ServiceManage = () => {
     return (
-        <div className="flex-none max-w-[302px] bg-white px-6 pt-4 pb-5 rounded-lg">
+        <div className="flex-none max-w-[302px] bg-white px-5 py-4 rounded-lg">
             <div className=" text-[#0A071B] font-Inter500 text-base text-center">
                 Manage your store
             </div>
