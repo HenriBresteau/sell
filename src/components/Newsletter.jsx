@@ -7,6 +7,7 @@ const Newsletter = () => {
     const [email, setEmail] = useState("");
     const apiKey = import.meta.env.VITE_BREVO_API_KEY;
 
+    console.log("Clé API en production :", import.meta.env.VITE_BREVO_API_KEY);
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
