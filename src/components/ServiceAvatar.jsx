@@ -1,9 +1,9 @@
 import locker from "../assets/locker.svg";
 import arrow from "../assets/arrow-down.svg";
-import user1 from "../assets/user_1.png";
-import user2 from "../assets/user2.png";
-import user3 from "../assets/user3.png";
-import user4 from "../assets/user4.png";
+import user1 from "../assets/user1.svg";
+import user2 from "../assets/user2.svg";
+import user3 from "../assets/user3.svg";
+import user4 from "../assets/user4.svg";
 
 const ServiceAvatar = () => {
     return (

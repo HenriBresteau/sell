@@ -2,10 +2,16 @@ import locker from "../assets/locker.svg";
 import percent from "../assets/90percent.svg";
 import cart from "../assets/cart.svg";
 import quizepercent from "../assets/15percent.svg";
+import clsx from "clsx";
 
-const ServiceManage = () => {
+const ServiceManage = ({ hovered }) => {
     return (
-        <div className="flex-none max-w-[302px] bg-white px-5 py-4 rounded-lg">
+        <div
+            className={clsx(
+                "flex-none max-w-[302px] bg-white px-5 py-4 rounded-lg",
+                hovered ? "" : "hover:bg-zinc-100"
+            )}
+        >
             <div className=" text-[#0A071B] font-Inter500 text-base text-center">
                 Manage your store
             </div>
